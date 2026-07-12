@@ -53,9 +53,23 @@ Rate 1-10 on each dimension:
 
 Below 35/50: revise.
 
+## Adaptation française (E-Motion / So'6 Rallye)
+
+Ce fork ajoute une adaptation française du skill, à côté des fichiers anglais d'origine (conservés intacts pour suivre l'amont) :
+
+```
+SKILL.fr.md                    # version française (déployée sous le nom em-stop-slop)
+references/phrases-fr.md       # tics d'écriture IA en français (avec sources)
+references/structures-fr.md    # structures à éviter, adaptées au français
+references/examples-fr.md      # transformations avant/après en français
+```
+
+Les tics français ne sont pas une traduction littérale de la liste anglaise : ils ciblent les formules réellement surutilisées par l'IA en français, corroborées par des sources francophones (voir la section Sources de `references/phrases-fr.md`). L'adaptation ajoute aussi des garde-fous pour un usage dans un pipeline SEO/GEO (ne pas toucher aux titres-questions, au mot-clé cible ni aux sources).
+
 ## Author
 
-[Hardik Pandya](https://hvpandya.com)
+Original : [Hardik Pandya](https://hvpandya.com)
+Adaptation française : E-Motion / So'6 Rallye
 
 ## License
 
