@@ -42,7 +42,7 @@ Les modèles récents qui cherchent sur le web collent aussi cette analyse sur u
 
 Un sujet neutre écrit comme une annonce d'hôtel ou un communiqué de presse. Pour les entreprises et les personnes, le ton communiqué est le plus fréquent. Les modèles récents sont flatteurs de façon plus discrète : pas de « le meilleur », mais une accumulation de mots positifs.
 
-À surveiller : niché, au cœur de, dynamique, riche (patrimoine, histoire), un large éventail, une palette variée, à couper le souffle, de renom, haut de gamme, incontournable, fluide, de pointe, engagement envers, s'impose comme.
+À surveiller : niché, au cœur de, dynamique, riche (patrimoine, histoire), un large éventail, une palette variée, à couper le souffle, de renom, haut de gamme, incontournable, unique (sans preuve), fluide, de pointe, engagement envers, s'impose comme.
 
 **Correction :** remplacer l'adjectif par le fait qui le justifierait, ou le supprimer. Sur une page commerciale, un peu de conviction fait partie du travail : la règle est « le fait plutôt que l'adjectif », pas « neutraliser ».
 
@@ -74,7 +74,7 @@ C'est le schéma figé qui est le signe, pas le fait de parler d'une difficulté
 
 Du texte destiné à l'utilisateur d'un chatbot, resté dans le livrable.
 
-À surveiller : J'espère que cela vous aide, Bien sûr !, Excellente question, N'hésitez pas à, Voici un…, Dans cette section nous allons…, Souhaitez-vous que…, J'espère que ce message vous trouve bien, Je me permets de vous écrire.
+À surveiller : J'espère que cela vous aide, Bien sûr !, Excellente question, N'hésitez pas à, Voici un…, Dans cette section nous allons…, Souhaitez-vous que…, J'espère que ce message vous trouve bien, Je me permets de vous écrire / de revenir vers vous, Je suis heureux de vous annoncer que.
 
 **Correction :** supprimer. En fin de page ou d'email, remplacer « N'hésitez pas à nous contacter » par l'action et le moyen (« Écrivez-nous à contact@… »), si le texte contient ce moyen.
 
