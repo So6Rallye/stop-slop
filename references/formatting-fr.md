@@ -59,7 +59,15 @@ Des puces qui commencent par une étiquette en gras suivie de deux-points : « *
 
 ## Emoji devant les titres ou les puces [établi]
 
-**Correction :** supprimer. Un emoji dans le corps d'un post social reste permis si la marque en utilise.
+**Correction :** supprimer dans les pages, articles, emails et livrables.
+
+**Posts sociaux [maison] :**
+
+- si la charte de la marque (`DESIGN.md`, `BRAND.md`, voix de marque) fixe une règle sur les emoji, la suivre ;
+- sinon, garder seulement les emoji **fonctionnels**, qui signalent une information : 📅 devant une date, 👉 devant un lien, 📍 devant un lieu ;
+- retirer les emoji **décoratifs** : devant l'accroche (🚀, 🔥, ✨), en puces (✅, 🔹, ▶️), en fin de phrase pour l'émotion. Les puces ✅ sont le marqueur le plus reconnaissable des posts LinkedIn générés par IA : les remplacer par une liste simple, une ligne par élément.
+
+Ne jamais supposer l'usage d'une marque : si aucune charte n'est lue, appliquer le défaut ci-dessus.
 
 ## Petits tableaux [établi]
 

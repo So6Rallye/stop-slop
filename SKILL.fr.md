@@ -25,6 +25,8 @@ Le but est un texte juste et précis, pas un texte qui trompe un détecteur.
 
 **Ne jamais inventer.** Retirer de l'emphase ne donne pas le droit d'ajouter un fait, un chiffre, une fréquence, une date ou une fonctionnalité absents du texte d'origine. Si la phrase précise demande un fait qu'on n'a pas : écrire la version sobre sans ce fait, et lister le fait manquant dans le compte rendu (« à demander : … »).
 
+**Édition minimale.** Couper le tic et garder le reste de la phrase mot pour mot. Réécrire seulement si la phrase ne tient plus debout une fois le tic retiré. Ne jamais fusionner deux phrases qui portent chacune un fait (date, chiffre, cause, condition) : chacune garde sa phrase. Ne pas ajouter de qualificatif absent de l'original (« automatiquement », « toujours », « rapidement ») : c'est un fait de plus.
+
 **Garder tout le fond.** Chaque fait, chiffre, nom, date, lien et affirmation reste. Les nuances de quantité aussi : « la plupart des clients » ne devient pas « les clients ». Une phrase de pur remplissage se supprime ; une phrase qui portait un fait garde le fait.
 
 **Ne jamais toucher :** citations d'une personne ou d'une source, titres d'œuvres, textes juridiques et mentions légales, code, JSON-LD, noms propres et marques.
@@ -65,6 +67,7 @@ Une phrase propre reste telle quelle. Un seul signe isolé ne prouve rien : c'es
 5. **Rendre compte** dans ce format, dans cet ordre :
    - le texte réécrit (ou la confirmation que les fichiers sont modifiés) ;
    - « Signes : N avant, M après », avec le détail par catégorie ;
+   - **Contrôle de sens** (obligatoire) : un tableau à trois colonnes, une ligne par phrase porteuse d'un fait (date, chiffre, cause, condition, promesse) qui a été modifiée : phrase d'origine | phrase réécrite | même affirmation (oui / non). Toute ligne « non » se corrige avant de livrer. Si aucune phrase porteuse d'un fait n'a été modifiée, écrire « Contrôle de sens : aucune phrase factuelle modifiée » ;
    - 2 ou 3 exemples avant/après représentatifs ;
    - « Gardé exprès : … » (citations, noms propres, mot-clé SEO, mot employé au sens propre) ;
    - « À demander : … » pour chaque fait qui manquait (omettre la ligne si rien ne manque).
