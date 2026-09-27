@@ -62,9 +62,14 @@ SKILL.fr.md                    # version française (déployée sous le nom em-s
 references/phrases-fr.md       # tics d'écriture IA en français (avec sources)
 references/structures-fr.md    # structures à éviter, adaptées au français
 references/examples-fr.md      # transformations avant/après en français
+references/signes-fr.md        # signes de contenu et restes de conversation
+references/formatting-fr.md    # mise en forme, titres, typographie
+references/sources-fr.md       # sources et niveau de preuve de chaque règle
 ```
 
 Les tics français ne sont pas une traduction littérale de la liste anglaise : ils ciblent les formules réellement surutilisées par l'IA en français, corroborées par des sources francophones (voir la section Sources de `references/phrases-fr.md`). L'adaptation ajoute aussi des garde-fous pour un usage dans un pipeline SEO/GEO (ne pas toucher aux titres-questions, au mot-clé cible ni aux sources).
+
+Depuis septembre 2026, la version française s'appuie aussi sur [Wikipedia : Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) et sur l'étude annotée de Rigouts Terryn & de Lhoneux (2024) sur le français. Chaque règle porte un niveau de preuve : établi, probable ou choix maison. Le skill ajoute des garde-fous de fond (ne rien inventer, garder les nuances et l'incertitude réelle de l'auteur, garder la voix) et une liste de tournures à ne pas corriger.
 
 ## Author
 

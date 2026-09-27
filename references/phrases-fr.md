@@ -1,6 +1,20 @@
 # Phrases à supprimer
 
-Adaptation française. Les tics d'écriture IA en français diffèrent des anglais : cette liste vise les formules françaises, pas une traduction littérale.
+Adaptation française. Les tics d'écriture IA en français diffèrent des anglais : cette liste vise les formules françaises, pas une traduction littérale. Niveaux de preuve [établi] / [probable] / [maison] : voir `sources-fr.md`.
+
+**Un mot de cette liste est un symptôme.** Le remplacer par un synonyme ne corrige rien : corriger ce que fait la phrase (gonfler, annoncer, remplir), puis dire la chose précise. Un ou deux de ces mots dans un texte, c'est normal ; c'est leur accumulation qui trahit l'IA.
+
+## Vocabulaire IA [établi en anglais, équivalents français probables]
+
+Wikipedia classe le vocabulaire surutilisé par époque. Les modèles actuels (depuis mi-2025) surutilisent surtout *emphasizing, enhance, highlighting, showcasing*. Équivalents français à surveiller en priorité :
+
+- souligner, mettre en avant, mettre en lumière
+- renforcer, améliorer, enrichir (au sens figuré)
+- mettre en valeur, illustrer, témoigner de
+
+Époques précédentes, encore fréquentes : crucial, essentiel, clé (adjectif), paysage (sens abstrait), robuste, méticuleux, complexe / subtil (au sens de « riche »), interaction, favoriser, s'aligner sur, dynamique, tapisserie (sens figuré), plonger dans.
+
+Un mot employé au sens propre (« paysage » pour un tableau, « souligner » un mot au feutre) n'est pas un signe.
 
 ## Ouvertures de raclement de gorge
 
@@ -31,9 +45,9 @@ N'ajoutent aucun sens. Supprimer.
 - « Voilà pourquoi c'est important. »
 - « Croyez-moi. »
 
-## Jargon
+## Jargon [probable]
 
-Remplacer par du langage simple.
+Remplacer par du langage simple. La colonne de droite indique une direction, pas un remplacement automatique : si la phrase ne dit rien une fois le jargon retiré, la supprimer.
 
 | Éviter | Utiliser |
 |--------|----------|
@@ -54,11 +68,21 @@ Remplacer par du langage simple.
 | favoriser les synergies | (supprimer) |
 | solutions / technologie de pointe | (dire ce que ça fait) |
 
-## Adverbes et modérateurs
+## Calques de l'anglais [établi]
 
-Supprimer les adverbes vides : pas de « -ment » superflu, pas de modérateurs, pas d'intensifieurs creux.
+Dans l'étude annotée sur le français, 16 % des anomalies relevées dans les textes générés viennent clairement de l'anglais : mots et expressions traduits mot à mot, que les francophones n'emploient presque jamais. Exemple relevé : « si vous ne pouvez pas les battre, rejoignez-les » (*if you can't beat them, join them*).
+
+À surveiller : délivrer (*deliver*), adresser un problème (*address*), impacter, faire du sens (*make sense*), être en charge de, opportunité (au sens d'« occasion »), supporter (au sens de « soutenir »), initier (au sens de « lancer »), au final, définitivement (au sens de « certainement »).
+
+**Correction :** le mot français courant (livrer, traiter, toucher, avoir du sens, être responsable de, occasion, soutenir, lancer, finalement, sans aucun doute).
+
+## Adverbes d'emphase [probable]
+
+Supprimer les adverbes en « -ment » qui ne font qu'insister, surtout quand ils s'empilent dans une même phrase.
 
 > Garder les adverbes qui portent une information factuelle réelle (« quotidiennement », « automatiquement », « gratuitement » quand ils décrivent un comportement ou une offre concrète). Cibler les adverbes d'emphase creuse, pas les adverbes d'information.
+>
+> Ne pas confondre avec les nuances et intensifs ordinaires (« très », « peut-être », « souvent », « a tendance à », « la plupart ») : Wikipedia les classe parmi les signes d'écriture **humaine**. Ils restent.
 
 - « vraiment »
 - « tout simplement »
@@ -88,9 +112,9 @@ Fillers à couper aussi :
 - « comme nous l'avons vu »
 - « plonger dans » / « plonger dans les détails »
 
-## Adjectifs d'importance creux
+## Adjectifs d'importance creux [établi]
 
-Surutilisés par l'IA pour gonfler un propos sans preuve. Ne pas les interdire, mais les couper quand ils ne portent rien : préférer la donnée précise.
+Surutilisés par l'IA pour gonfler un propos sans preuve (voir aussi `signes-fr.md` § 1.1). Ne pas les interdire, mais les couper quand ils ne portent rien : préférer la donnée précise.
 
 - « crucial »
 - « essentiel »
@@ -100,31 +124,31 @@ Surutilisés par l'IA pour gonfler un propos sans preuve. Ne pas les interdire, 
 - « vital »
 - « captivant »
 
-## Verbes fourre-tout
+## Verbes fourre-tout [probable]
 
 Vagues, ils diluent l'action. Préférer un verbe précis.
 
-- « permettre »
+- « permettre de »
+- « mettre en place »
+- « mettre en œuvre »
 - « garantir »
 - « assurer »
-- « offrir »
+- « offrir » / « proposer » (au sens de « avoir » : voir `structures-fr.md`, éviter « est » et « a »)
 - « favoriser »
 - « optimiser »
 - « faciliter »
 
-## Connecteurs en excès
+Même famille, en ouverture de phrase : « Dans ce cadre, », « Dans ce contexte, ».
 
-L'IA empile les connecteurs. En garder un pour deux ou trois phrases, pas tous.
+## Connecteurs [établi pour les conclusions, probable pour le reste]
 
-- « par ailleurs »
-- « de plus »
-- « en outre »
-- « ainsi »
-- « néanmoins »
-- « cependant »
-- « c'est pourquoi »
-- « en conséquence »
-- « par la suite »
+Un connecteur isolé n'est pas un signe : Wikipedia le classe parmi les faux indices. Ce qui trahit l'IA :
+
+- **les connecteurs de conclusion et de liaison entre parties** : « En somme », « En conclusion », « En conséquence », « En résumé ». L'étude sur le français les juge « trop évidents, peu naturels » ;
+- **les connecteurs en début de phrase, en série** : « De plus, », « En outre, », « Par ailleurs, », « Ainsi, », phrase après phrase ;
+- **la densité** : en garder un pour deux ou trois phrases, pas tous.
+
+Un « cependant » ou un « ainsi » au milieu d'une phrase reste.
 
 ## Clichés marketing IA
 
