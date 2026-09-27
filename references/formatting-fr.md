@@ -8,7 +8,7 @@ L'IA met des tirets cadratins (—) là où un humain mettrait une virgule, deux
 
 **Correction :** réécrire la phrase avec une ponctuation ordinaire. Ne pas remplacer par un demi-cadratin (–) ni par un trait d'union espacé ( - ) : le rythme de l'incise reste et le tic aussi. Zéro tiret cadratin dans nos textes (règle maison, plus stricte que la source).
 
-Le trait d'union reste permis dans les éléments d'interface (séparateur de fil d'Ariane, libellé court), pas dans la prose.
+Dans les éléments d'interface (séparateur de fil d'Ariane, libellé court), utiliser le point médian « · », comme les scripts `audit-tirets` de Rivalyse et 3D-Farm. Ces scripts contrôlent déjà le texte affiché de ces deux projets ; pour le reste (emails, livrables, textes hors dépôt), la vérification se fait à l'étape 4 du déroulé.
 
 ## Titres
 

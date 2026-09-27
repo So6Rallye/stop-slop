@@ -35,6 +35,7 @@ Le but est un texte juste et précis, pas un texte qui trompe un détecteur.
 
 - Un titre H2/H3 formulé en question (« Comment surveiller les prix concurrents ? ») reste une question : il répond à une requête réelle.
 - Le mot-clé cible garde ses occurrences nécessaires (densité 1-2 %). Couper les répétitions superflues seulement.
+- Une phrase visible reprise dans le JSON-LD (réponse FAQPage, description) doit rester identique à sa copie : Google demande que le balisage corresponde au texte affiché. Si on la réécrit, reporter la même phrase dans le JSON-LD et le signaler dans le compte rendu (« JSON-LD synchronisé : … ») ; si on ne peut pas toucher au JSON-LD, laisser la phrase visible telle quelle.
 - Une source, un lien ou une statistique sourcée n'est jamais retiré ni affaibli. Si le texte attribue une analyse à une source nommée (« selon X, … »), vérifier que la source le dit vraiment ; sinon retirer l'attribution ou signaler le doute.
 - Le ton affirmatif GEO (zéro « peut-être / il semblerait ») est un choix de style GEO, pas une règle anti-IA : il s'applique aux pages SEO, pas aux emails ni aux livrables.
 
@@ -60,7 +61,7 @@ Une phrase propre reste telle quelle. Un seul signe isolé ne prouve rien : c'es
 1. **Lire les références** avant la première réécriture de la session.
 2. **Repérer.** Passer le texte au crible des cinq références, phrase par phrase. Noter chaque signe trouvé et sa catégorie.
 3. **Réécrire** chaque phrase signalée en respectant les garde-fous. Puis relire le texte entier pour les signes de jugement (règle de trois, rythme, fin en résumé, importance gonflée).
-4. **Relire contre l'original** : même faits, mêmes chiffres, mêmes nuances, même personne grammaticale, rien d'ajouté. Repasser le crible : viser zéro signe, hors ceux gardés exprès.
+4. **Relire contre l'original** : même faits, mêmes chiffres, mêmes nuances, même personne grammaticale, rien d'ajouté. Après chaque phrase corrigée, relire son paragraphe entier : un connecteur (« en revanche », « ces deux », « autre chose ») peut avoir perdu son référent. Chercher le caractère « — » par une recherche dans le texte, pas à l'œil. Repasser le crible : viser zéro signe, hors ceux gardés exprès.
 5. **Rendre compte** dans ce format, dans cet ordre :
    - le texte réécrit (ou la confirmation que les fichiers sont modifiés) ;
    - « Signes : N avant, M après », avec le détail par catégorie ;
@@ -78,7 +79,7 @@ Chaque règle des références porte un niveau de preuve :
 - **[probable]** : observé par plusieurs sources francophones sans étude derrière ;
 - **[maison]** : choix de style E-Motion, sans preuve qu'il s'agisse d'un tic IA.
 
-Les textes relus ici sont surtout écrits par Claude. Son tic le plus documenté est le **tiret cadratin** : c'est le seul modèle actuel qui en met plus que les rédacteurs professionnels. Zéro tiret cadratin, et pas de remplacement par « - » ou « – » : réécrire la phrase (virgule, deux-points, parenthèses, point).
+Les textes relus ici sont surtout écrits par Claude. Son tic le plus documenté est le **tiret cadratin** : c'est le seul modèle actuel qui en met plus que les rédacteurs professionnels. Zéro tiret cadratin, et pas de remplacement par « - » ou « – » : réécrire la phrase (virgule, deux-points, point-virgule, parenthèses, point ; « · » dans une interface).
 
 ## Vérifications rapides
 
